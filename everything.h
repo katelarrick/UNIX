@@ -2,6 +2,7 @@
 
 #include <cmath>  // sin, cos, log
 #include <vector>
+#include <stdio.h>
 
 const double SAMPLE_RATE = 48000;
 const double pi =
@@ -24,3 +25,6 @@ double uniform(double high = 1, double low = 0) {
 
 void mono(double f) { printf("%lf\n", f); }
 void stereo(double f, double v) { printf("%lf,%lf\n", f, v); }
+
+
+// use user/bin/clang compiler (highest number )
